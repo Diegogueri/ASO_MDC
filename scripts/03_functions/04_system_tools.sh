@@ -46,6 +46,10 @@ case $opcion in
     ;;
     3)
     mostrar_espacio
+    ;;
+    *)
+    echo "error"
+    ;;
 
 esac
 sleep 1
