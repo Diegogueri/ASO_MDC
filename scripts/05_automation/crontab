@@ -1,0 +1,3 @@
+#crontab -e realizado desde el usuario root para que esta planificación de tarea se ejecute como root
+0 7 * * 0-4 ./gestion_usuarios.sh
+30 14 * * 0-4 ./gestion_usuarios.sh

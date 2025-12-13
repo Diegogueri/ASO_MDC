@@ -1,0 +1,7 @@
+[Unit]
+Description=Ejecutar transfiere_usuarios.sh con privilegios de root
+[Service]
+Type=oneshot
+ExecStart=/root/transfiere_usuarios.sh
+User=root
+Group=root

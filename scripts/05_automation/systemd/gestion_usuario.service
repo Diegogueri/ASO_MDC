@@ -1,0 +1,7 @@
+[Unit]
+Description=Ejecutar gestion_usuario.sh con privilegios de root
+[Service]
+Type=oneshot
+ExecStart=/root/gestion_usuarios.sh
+User=root
+Group=root

@@ -1,0 +1,7 @@
+[Unit]
+Description=Ejecutar backup.sh con privilegios de root
+[Service]
+Type=oneshot
+ExecStart=/root/backup.sh
+User=root
+Group=root

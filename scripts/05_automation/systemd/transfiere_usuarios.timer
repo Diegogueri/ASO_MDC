@@ -1,0 +1,8 @@
+[Unit]
+Description=Timer para ejecutar transfiere_usuarios.sh
+[Timer]
+OnCalendar=Mon..Fry 06:00
+OnCalendar=Mon..Fry 13:30
+Persistent=true
+[Install]
+WantedBy=timers.target
